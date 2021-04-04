@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loginSignUpFragment">
+
+    <fragment
+        android:id="@+id/loginSignUpFragment"
+        android:name="com.naya.mainapk.LoginSignUpFragment"
+        android:label="LoginSignUpFragment">
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_personalInfoFragment"
+            app:destination="@id/personalInfoFragment" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_faqChoices3"
+            app:destination="@id/faqChoices3"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_termsConditions2"
+            app:destination="@id/termsConditions2" />
+    </fragment>
+    <fragment
+        android:id="@+id/personalInfoFragment"
+        android:name="com.naya.mainapk.PersonalInfoFragment"
+        android:label="PersonalInfoFragment">
+
+        <action
+            android:id="@+id/action_personalInfoFragment_to_faqChoices3"
+            app:destination="@id/faqChoices3"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_personalInfoFragment_to_lastScreen"
+            app:destination="@id/lastScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.naya.mainapk.OtpFragment"
+        android:label="OtpFragment">
+        <argument
+            android:name="mobileNo"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_otpFragment_to_personalInfoFragment"
+            app:destination="@id/personalInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/faqChoices3"
+        android:name="com.naya.mainapk.FaqChoices"
+        android:label="FaqChoices">
+        <action
+            android:id="@+id/action_faqChoices3_to_rape"
+            app:destination="@id/rape" />
+        <action
+            android:id="@+id/action_faqChoices3_to_puberty"
+            app:destination="@id/puberty" />
+        <action
+            android:id="@+id/action_faqChoices3_to_abortion"
+            app:destination="@id/abortion" />
+        <action
+            android:id="@+id/action_faqChoices3_to_safesex"
+            app:destination="@id/safesex" />
+        <action
+            android:id="@+id/action_faqChoices3_to_PCNPDT"
+            app:destination="@id/PCNPDT" />
+        <action
+            android:id="@+id/action_faqChoices3_to_appFaq"
+            app:destination="@id/appFaq" />
+        <action
+            android:id="@+id/action_faqChoices3_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_faqChoices3_to_contactUs"
+            app:destination="@id/contactUs" />
+        <action
+            android:id="@+id/action_faqChoices3_to_inviteFriend"
+            app:destination="@id/inviteFriend" />
+        <action
+            android:id="@+id/action_faqChoices3_to_menstruation"
+            app:destination="@id/menstruation" />
+        <action
+            android:id="@+id/action_faqChoices3_to_email"
+            app:destination="@id/email" />
+        <action
+            android:id="@+id/action_faqChoices3_to_pwdvaact"
+            app:destination="@id/pwdvaact" />
+        <action
+            android:id="@+id/action_faqChoices3_to_clinics2"
+            app:destination="@id/clinics2" />
+    </fragment>
+    <fragment
+        android:id="@+id/rape"
+        android:name="com.naya.mainapk.Rape"
+        android:label="Rape" />
+    <fragment
+        android:id="@+id/puberty"
+        android:name="com.naya.mainapk.Puberty"
+        android:label="activity_puberty"
+        tools:layout="@layout/activity_puberty" />
+    <fragment
+        android:id="@+id/lastScreen"
+        android:name="com.naya.mainapk.LastScreen"
+        android:label="activity_faq_choices"
+        tools:layout="@layout/activity_faq_choices">
+        <action
+            android:id="@+id/action_lastScreen_to_faqChoices3"
+            app:destination="@id/faqChoices3" />
+        <action
+            android:id="@+id/action_lastScreen_to_termsConditions2"
+            app:destination="@id/termsConditions2" />
+    </fragment>
+    <activity
+        android:id="@+id/termsConditions2"
+        android:name="com.naya.mainapk.TermsConditions"
+        android:label="activity_terms_conditions"
+        tools:layout="@layout/activity_terms_conditions" />
+    <fragment
+        android:id="@+id/abortion"
+        android:name="com.naya.mainapk.Abortion"
+        android:label="Abortion" />
+    <fragment
+        android:id="@+id/safesex"
+        android:name="com.naya.mainapk.safesex"
+        android:label="activity_safesex"
+        tools:layout="@layout/activity_safesex" />
+    <fragment
+        android:id="@+id/PCNPDT"
+        android:name="com.naya.mainapk.PCNPDT"
+        android:label="PCNPDT" />
+    <fragment
+        android:id="@+id/appFaq"
+        android:name="com.naya.mainapk.model.AppFaq"
+        android:label="fragment_app_faq"
+        tools:layout="@layout/fragment_app_faq" />
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.naya.mainapk.LastScreenMenu.AboutUs"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.naya.mainapk.LastScreenMenu.ContactUs"
+        android:label="activity_contact_us"
+        tools:layout="@layout/activity_contact_us" />
+    <fragment
+        android:id="@+id/inviteFriend"
+        android:name="com.naya.mainapk.LastScreenMenu.InviteFriend"
+        android:label="InviteFriend" />
+    <fragment
+        android:id="@+id/menstruation"
+        android:name="com.naya.mainapk.Menstruation"
+        android:label="fragment_menstruation"
+        tools:layout="@layout/fragment_menstruation" />
+    <activity
+        android:id="@+id/email"
+        android:name="com.naya.mainapk.Email"
+        android:label="activity_email"
+        tools:layout="@layout/activity_email" />
+    <activity
+        android:id="@+id/pwdvaact"
+        android:name="com.naya.mainapk.pwdvaact"
+        android:label="activity_pwdvaact"
+        tools:layout="@layout/activity_pwdvaact" />
+    <activity
+        android:id="@+id/clinics2"
+        android:name="com.naya.mainapk.Clinics"
+        android:label="activity_clinics"
+        tools:layout="@layout/activity_clinics" />
+    <activity
+        android:id="@+id/splash"
+        android:name="com.naya.mainapk.Splash"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+</navigation>

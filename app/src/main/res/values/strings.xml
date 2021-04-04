@@ -1,0 +1,495 @@
+<resources>
+    <string name="app_name">SRHR</string>
+
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Faeroe Islands</item>
+        <item>Falkland Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>Former Yugoslav Republic of Macedonia</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Marianas</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Sqo Tome and Principe</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>The Gambia</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>United States Minor Outlying Islands</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string name="mobilelogin">Press Login Button if want to login with mobile</string>
+    <string name="ans1Safe"> A.1 Safe sex means protective sexual contact / sexual intercourse with one\'s partner. Safe sex practices avoid any unplanned pregnancy. It may not be 100% safe, but in various ways, this practice can eliminate the possibility of sexually transmitted disease or latent disease. Consent is important for safe sex: It is very important to talk about sex, with partners involved in sexual intercourse. Consent and safe sex: Voluntary consent is very important for safe sex </string>
+
+    <string name="ans2Safe"> A2. The best options are condoms (male and female), intrauterine devices (IUDs) and birth control pills (oral).
+If you face any problem then we recommend you consult a physician. </string>
+
+    <string name="ques3Safe"> Is it ok to have sex with an unknown partner? </string>
+
+    <string name="ques4Safe"> What to do if you have unprotected sex? </string>
+    <string name="ques5Safe"> What is HIV and AIDS? </string>
+
+    <string name="ques6Safe"> What precautions should be taken during oral sex? </string>
+    <string name="ques1Ab"> What is abortion? </string>
+
+    <string name="ques2Ab"> Can contraceptive failure lead to miscarriage? </string>
+    <string name="ques3Ab"> If an unmarried woman conceives and does not want a child? </string>
+    <string name="ques4Ab"> Do doctors need permission to perform abortions? </string>
+    <string name="ans4Ab"> It is the duty of doctors to seek your consent to perform an abortion. Under PCPCNDT Act in India, you cannot be forced to have a sexually selective abortion. If you are below 18 (a minor) or a person with mental illnesses, then it is the duty of doctors to seek the permission of your parents as well. If a doctor performs an abortion without your consent, he may face a jail term of up to 10 years and a fine.
+
+    Recent amendments to the Act
+    The Medical Termination of Pregnancy (Amendment) Bill, 2020 was introduced in the Lok Sabha on March 2, 2020. Proposed changes include the following.
+    Defines "termination of pregnancy" as a procedure to terminate a pregnancy using medical or surgical methods.
+     Termination of pregnancy
+    With the opinion of a registered medical practitioner and for the length of 20 to 24 weeks, the otomination of a pregnancy of less than 20 weeks would require the opinion of two registered medical practitioners.
+    Conceptions that allow termination of pregnancy include continuation of pregnancy that can cause serious injury to the pregnant woman\'s life or to her physical or mental health; Or there is a substantial risk that if the child is born, it will suffer a serious physical or mental abnormality. Any pregnancy occurs as a result of the failure of a device or method used by the woman or her partner for the purpose of limiting the number of children or preventing pregnancy, the pain caused by such pregnancy is serious for mental health May be considered as an injury. Of a pregnant woman. If any pregnancy is alleged to have been caused by rape by a pregnant woman, the pain caused by the pregnancy will be considered a cause of serious injury to the mental health of the pregnant woman.
+    o The provisions relating to the length of pregnancy shall not apply to termination of pregnancy by a medical practitioner, where such termination is necessary for the diagnosis of any significant fetal abnormality diagnosed by the medical board, which is to be constituted by the state. Government as per prescribed norms.
+        ErRules will be told about the criteria of a registered medical practitioner whose opinion is necessary to terminate a pregnancy at different gestational ages.</string>
+
+
+    <string name="loginSignUpHeading">Login / Signup with</string>
+    <string name="mobilNoHeading">Mobile No.</string>
+    <string name="textOr">OR</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="logInButton">Login</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="termsOfService">Terms of Service  Privacy Policy</string>
+    <string name="AgreeText">By logging in/ Signing up, you are agree to our</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="letsStart">LET\'S START</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="birthday">Birthday</string>
+    <string name="selectCountry">SELECT YOUR COUNTRY</string>
+    <string name="enterOtp">ENTER OTP</string>
+    <string name="next">Next</string>
+    <string name="pubertyHeading">PUBERTY</string>
+    <string name="menstHeading">MENSTRUATION</string>
+    <string name="safeSex">SAFE SEX &amp; STD</string>
+    <string name="rapeHeading">RAPE</string>
+    <string name="pcpHeading">PCPNDT</string>
+    <string name="abortionHeading">Abortion</string>
+    <string name="pwdHeading">PWDVA ACT</string>
+    <string name="faqHeading">Frequently Asked Questions</string>
+    <string name="selectCategory">Select Category</string>
+    <string name="aboutUs">About Us</string>
+    <string name="yourLearning">Your Learning</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="inviteFriends">Invite Friends</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="aboutAction">About Action India</string>
+    <string name="aboutUsContent1">ACTION INDIA WORKS TOWARDS ENHANCING THE PARTICIPATION OF WOMEN AS CITIZENS TO CLAIM THEIR RIGHTS AND ENTITLEMENTS, TO PUBLIC HEALTH AND CIVIC SERVICES TO BETTER THE ENVIRONMENT AND QUALITY OF LIFE OF THE URBAN and Rural poor.</string>
+    <string name="aboutUsContent2">Evolving feminist perspectives with grassroots women for 40 years.</string>
+    <string name="aboutUsContent3">Action India founded in 1976, has taken many big and small path breaking initiatives by grassroots women, which clearly indicates the strong potential in women becoming the agents of change in the process of social transformation. Action India sustains a balance between community based work and the universal struggle for women’s rights. While protesting against wrongs, Action India simultaneously creates alternative modes of self-help, self-esteem and self-assertion.</string>
+    <string name="aboutUsContent4">WE WORK TO</string>
+    <string name="aboutUsContent5">Eliminate Discrimination\n Facilitate access to education and health care\n Enhance access to livelihood and economic rights\n Enable participation in governance and development</string>
+    <string name="aboutUsContent6">For any further information about Action India <a href="http://www.action-india.org/">please visit our website</a></string>
+    <string name="activity_clinic_heading">Rashtriya Kishor Swasthya Karyakram (RKSK)</string>
+    <string name="address">Address</string>
+    <string name="contact_us_content">action india\n5/27A, Jangpura B,\nNew Delhi-110014\nPh: 91-011-24377470\nPh.:91-011-24374785\n www.action-india.org</string>
+    <string name="writeToUs">Write To us</string>
+    <string name="subject">Subject</string>
+    <string name="sendMail">Send Mail</string>
+    <string name="activity_faq_content">Frequently Asked \n Questions</string>
+    <string name="puberty_content">Professor James M. Tanner, a child development expert, was the first to identify the visible stages of puberty. Today, these stages are known as the Tanner stages or, more appropriately, sexual maturity ratings. They serve as a general guide to physical development, although each person has a different puberty timetable.  Girls Puberty usually starts between ages 9 and 11. The first signs of breasts, called “buds,” start to form under the nipple. They may be itchy or tender, which is normal.  It’s common for breasts to be different sizes and grow at different rates. So, it’s normal if one bud appears larger than the other. The darker area around the nipple (areola) will also expand. In addition, the uterus begins to get larger, and small amounts of pubic hair start growing on the lips of the vagina. Girls with higher body mass index experience an earlier onset of puberty. BOYS In boys, puberty usually starts around age 11. The testicles and skin around the testicles (scrotum) begin to get bigger. Also, early stages of pubic hair forms on the base of the penis.</string>
+    <string name="pwd_content">THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE Act, 2005 This Act may be called the Protection of Women from Domestic Violence Act, 2005.\n (1) It extends to the whole of India except the State of Jammu and Kashmir.\n (2) It shall come into force on such date 1 as the Central Government may, by notification in the Official Gazette, appoint. domestic relationship” means a relationship between two persons who live or have, at any point of time, lived together in a shared household, when they are related by consanguinity, marriage, or through a relationship in the nature of marriage, adoption or are family members living together as a joint family Definition of domestic violence.—For the purposes of this Act, any act, omission or commission or conduct of the respondent shall constitute domestic violence in case it—\n (a) harms or injures or endangers the health, safety, life, limb or well‑being, whether mental or physical, of the aggrieved person or tends to do so and includes causing physical abuse, sexual abuse, verbal and emotional abuse and economic abuse or\n (b) harasses, harms, injures or endangers the aggrieved person with a view to coerce her or any other person related to her to meet any unlawful demand for any dowry or other property or valuable security or \n(c) has the effect of threatening the aggrieved person or any person related to her by any conduct mentioned in clause (a) or clause (b) or (d) otherwise injures or causes harm, whether physical or mental, to the aggrieved person. Explanation I.—For the purposes of this section,—\n (i) “physical abuse” means any act or conduct which is of such a nature as to cause bodily pain, harm, or danger to life, limb, or health or impair the health or development of the aggrieved person and includes assault, criminal intimidation and criminal force\n (ii) “sexual abuse” includes any conduct of a sexual nature that abuses, humiliates, degrades or otherwise violates the dignity of woman\n (iii) “verbal and emotional abuse” includes—\n (a) insults, ridicule, humiliation, name calling and insults or ridicule especially with regard to not having a child or a male child; and \n(b) repeated threats to cause physical pain to any person in whom the aggrieved person is interested.\n (iv) “economic abuse” includes­— \n(a) deprivation of all or any economic or financial resources to which the aggrieved person is entitled under any law or custom whether payable under an order of a court or otherwise or which the aggrieved person requires out of necessity including, but not limited to, household necessities for the aggrieved person and her children, if any, stridhan, property, jointly or separately owned by the aggrieved person, payment of rental related to the shared household and maintenance\n (b) disposal of household effects, any alienation of assets whether movable or immovable, valuables, shares, securities, bonds and the like or other property in which the aggrieved person has an interest or is entitled to use by virtue of the domestic relationship or which may be reasonably required by the aggrieved person or her children or her stridhan or any other property jointly or separately held by the aggrieved person and \n(c) prohibition or restriction to continued access to resources or facilities which the aggrieved person is entitled to use or enjoy by virtue of the domestic relationship including access to the shared household. Explanation II.—For the purpose of determining whether any act, omission, commission or conduct of the respondent constitutes “domestic violence” under this section, the overall facts and circumstances of the case shall be taken into consideration.</string>
+    <string name="pcn_heading">PCPNDT (Pre-Conception Pre-natal Diagnostic Technique) Act</string>
+    <string name="pcn_content"  formatted="false">The sex ratio is defined as the ratio of the number of males to number of females in a population set. It is internationally expressed per 100 females but in India, it is expressed as per 1000 males. This means that there is an imbalance between the two sexes i.e. there are less women per thousand males. According to the 2011 census, for every 1000 boys, there are only 918 girls. The child sex ratio in India has been on the decline since 1991 and the worst since independence. According to the 1991 census, there were 945 girls for every 1000 boys and in 2001,927 girls for every 1000 boys. Keeping this in mind, PCPNDT (Pre-Conception Pre-natal Diagnostic Technique) act was constituted to control or rather ban the use of technology i.e. ultra sound to determine the sex of the fetus before its birth. This Act of the Parliament of India was enacted to stop female foeticides and address the declining sex ratio in India. To know more, please go to the link below: https://pndt.gov.in/WriteReadData/l892s/PC-PNDT%20ACT-1994.pdf Beti Bachao – Beti Padhao The Prime minister recently launched the Beti Bachao – Beti Padhao (BBBP) campaign to reverse the dwindling numbers. Beti Bachao, Beti Padhao (Save girl child, educate girl child) is a Government of India scheme that aims to generate awareness and improve the efficiency of delivery of welfare services meant for the girl child and women. The scheme was initiated with an initial corpus of Rs 100 crore. It is being implemented in the 100 Gender critical districts. To know more, please go to the link below https://wcd.nic.in/sites/default/files/About_BBBP_Scheme.pdf Sukanya Samriddhi Yojana Part of the Beti Bachao, Beti Padhao campaign, this Government of India backed saving scheme is targeted at the parents of girl children. The programme encourages them to build a fund for future education and marriage expenses for their female child. Parents can start saving early as the minimum amount of investment required is small, and the account is active for 14 years from the date of opening the account. The main highlights of the scheme are: ●It has tax benefits and an interest rate of 9.1%. ●It is meant for girls under the age of 10 years. ●You can start the account with just Rs 1,000. ●The maximum deposit is Rs 1,50,000 per year. To know more, please go to the link below http://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89# Baalika Samriddhi Yojana This scheme was launched by the Government of India on 15th August 1997 and covered all girls born on or after 15 August 1997 who are below the poverty line. Aimed at offering financial aid to girl children born on or after 15 August 1997, the schemes key objectives include improving the enrolment and retention of the girl child in schools and helping raise daughters until their legal age of marriage. If successful, young girls will get an education that will help them with jobs to generate a steady income. To know more, please go to the link below https://pmmodiyojana.in/balika-samridhi-yojana/ CBSE Scholarship Scheme/Policy for Girl Education The scheme envisages providing scholarships to the meritorious single girl student, who is the only child of the parent and has passed CBSE Class X examination with 60% or more and is continuing her further education of Class XI and XII. The scheme is aimed to recognize the efforts of the parents in promoting education among girls and provide encouragement to meritorious students. For more information, please go to the link below: https://transformingindia.mygov.in/scheme/cbse-single-girl-child-scholarship/#intro Delhi Ladli Scheme Delhi Ladli Scheme was launched by the Government of NCT of Delhi on 01.01.2008 for empowerment of girl children born in Delhi. Its objectives are:\n •\tTo empower the girl child socially and economically.\n •\tTo promote birth registration of girl children.\n •\tTo control female foeticide and to improve sex ratio.\n •\tTo end discrimination against the girl child.\n •\tTo promote education among the girls and reduce school drop-out rate of girl students.\n •\tTo provide security to girl students for their higher education. To know more, please go to the link below, http://www.wcddel.in/streesakti_3Ladli.html</string>
+    <string name="video">Videos</string>
+    <string name="disha">Disha Clinics</string>
+    <string name="terms">By downloading or using the application, these words will automatically apply to you - you should make sure that you read them carefully before using the app. You are not allowed to copy or modify the application, any part of the application or our trademark in any way. You are not allowed to try to extract the source code of the application, and you should not even try to translate the app into other languages, or create derivative versions. The application itself, and all trade marks, copyrights, database rights and other intellectual property rights related thereto, still belong to Action India.
+
+Action India is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services at any time and for any reason. We will never charge you for the app or its services that it is absolutely clear to you what you are offering.
+
+The SRHR Mere Liye App stores and processes the personal data provided by you to provide our service. It is your responsibility to keep your phone and app safe. We therefore recommend that you do not jailbreak or root your phone, which is a process to remove software restrictions and limitations imposed by the official operating system of your device. This can make your phone vulnerable to malware / viruses / malicious programs, compromise your phone security features and may mean that the SRHR Mere Liye app will not work properly or at all.
+
+The application uses third party services that declare their own terms and conditions.
+
+Link to the terms and conditions of third party service providers used by the application
+
+Google Play Services \ n
+You should be aware that there are some things that Action India will not take responsibility for. The app will require an active Internet connection for certain functions of the app. The connection may be Wi-Fi, or provided by your mobile network provider, but if you do not have access to Wi-Fi, and you do not have any of your own data, Action India may not work with full functionality Cannot take responsibility for the app. Allowance left.
+
+If you are using an app outside of a Wi-Fi area, you should remember that your terms of agreement with your mobile network provider will still apply. As a result, while accessing the app by your mobile provider you may be charged for the cost of data for the duration of the connection, or other third party fees. In using the app, you are accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home region (ie region or country) without turning off data roaming. If you are not a bill payer for the device on which you are using the app, please be aware that we believe that you have received permission from the bill payer to use the app.
+
+Along the same lines, Action India cannot always take responsibility for the way you use the app. You need to ensure that your device stays charged - if it runs out of battery and you cannot turn it on to take advantage of the service, Action India cannot accept responsibility.
+
+Regarding Action India responsibility for your use of the application, when you are using the app, it is important to keep in mind that although we try to ensure that it is updated and correct at all times, we third parties Trust us provide information so that we can make it available to you. Action India accepts no liability for any loss, direct or indirect, you experience as a result of relying solely on this functionality of the app.
+
+At some point, we may want to update the app. The app is currently available on Android and iOS - the requirements of both systems can change (and for any additional systems we decide to increase the availability of the app), and if you want to use you need to download the update May need it. App. Action India does not promise that it will always update the app so that it is relevant to you and / or works with the Android and iOS version that you have installed on your device. However, you always promise to accept updates to the application, when offered to you, we may also stop providing the app to you, and terminate its use at any time without giving you notice of termination. . Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will cease; (b) You should stop using the app, and (if necessary) remove it from your device.
+
+Changes to this Terms and Conditions \ n
+
+We may update our terms and conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting new terms and conditions on this page.
+
+These terms and conditions are effective until 2021-02-23
+
+Contact us \ n
+If you have any questions or suggestions regarding our Terms and Conditions, please give us actionindia19</string>
+    <string name="ans1Ab">Abortion is applicable under the Medical Termination of Pregnancy Act 1971, if your pregnancy is less than 20 weeks, however, it is subject to many conditions. Your ability to get an abortion will depend on the opinion of the doctor, only then are they legally allowed to have an abortion. Abortion is considered a crime without fulfilling the conditions.</string>
+    <string name="ans2Ab">If you are a married person, you should be able to have an abortion if the contraceptives did not work and you do not want to have more children. It is the legal duty of a doctor to assume in such cases that pregnancy severely affects your mental health.</string>
+    <string name="ans3Ab">The same legal duty unfortunately does not apply to unmarried women. However, please remember that this does not mean that you cannot get an abortion. If the doctor makes an opinion that continuing the pregnancy will harm your mental health, she may undergo an abortion.</string>
+    <string name="ques1Safe">What is safe sex</string>
+    <string name="ques2Safe">What is the best option for safe sex?</string>
+    <string name="asns3Safe">Depending on where and how you met the sexual partner. If you meet them online, or face to face, then it is good to inform a friend or confidant if you are going to have sex. It would be best if you openly expressed your concern about sexual activity. This is your choice and your call.</string>
+    <string name="ans4Safe">Sometimes during sexual intercourse, you may face problems like condom breakage, it is not advisable to panic; There are several ways through which you can reduce the risk such as STI testing and emergency contraceptive pill which is 85% effective and prevents unplanned pregnancy if used within 24 hours of having sex.</string>
+    <string name="ans5Safe">HIV (Human Immunodeficiency Virus) is a virus that attacks cells that help the body fight infection, causing the person to succumb to other infections and diseases. It spreads through exposure to certain bodily fluids of a person with HIV, most commonly during unprotected sex (sex without a condom or HIV medication to prevent or treat HIV), or to share injection drug devices Through this. AIDS- is a set of symptoms (or syndromes) caused by the HIV virus. A person has AIDS when their immune system is too weak to fight infection, and they develop certain symptoms and diseases (known as opportunistic infections). This is the last stage of HIV, when the infection is very advanced, and if left untreated will lead to death. [Avert- HIV and AIDS global information and education. <a href ="https://www.avert.org/about-hiv-aids/what-hiv-aids?gclid=Cj0KCQiA0-6ABhDMARIsAFVdQv_mZtjwTwOZwkZZoo_oVTqcBT_oYVjw9lex9OO2/Ob2&amp;hl=en">Our Website</a> Homosexuals have also suffered from the effects of AIDS since their arrival in the 1990s. It can also spread through heterosexual partners. What causes HIV? Is spread by HIV 1) Unprotected Sex 2) Through blood transfusion of infected person Breastfeeding by HIV infected mother HIV test. The duration of infection is normally three months, it is advisable to have a test after sex. Even though we provide you with a solution, it is the best advice to please see a doctor for your condition.</string>
+    <string name="ans6Safe">Precautions such as: Use of condos or dental dams while having sex Avoid having sex if you have a cut or a sore on the private part.</string>
+    <string name="ansHistorySafe">The history of safe sex can be understood in terms of two periods. Before the late 1970s, the term and its associated practices were vaguely defined. By the late 1980s, a strong, consistent (if still heterogeneous) set of creeds and practices had taken place. This section examines those two periods and the transition between them.</string>
+    <string name="ques3Rape">What are the different types of rape?</string>
+    <string name="ques1Rape">What is rape?</string>
+
+    <string name="ans3Rape" formatted="false">Following are the different types of rape:
+1) Minor rape\n
+2) Gang rape\n
+3) Marital rape\n
+4) increase\n
+5) Revenge of rape\n
+6) Custodial Rape\n
+7) Rape under false pretenses of marriage
+
+Minor or statutory rape
+Statutory rape is a crime involving sexual contact with a person who is under the age specified by law, commonly referred to as the "age of consent". Most states no longer call this crime statutory rape. The legal term for a crime varies from one state to another and includes sex with a minor, sexual assault of a child, criminal sexual penetration of a minor or sexual assault of a child under a certain age and sex of a minor. Exploitation is included. Statutory rape is based on the assumption that a person under a certain age cannot consent to sexual contact or activity because he lacks the maturity or judgment necessary to make the choice to learn about sexual activity. Even when no force is involved and sex appears with consent, the act of having sex with a person under consent is a crime solely due to that person\'s age. (Criminal Defense Lawyer, 2018) [Statutory Rape Laws and Charges published by NOLO
+https://www.criminaldefenselawyer.com/resources/criminal-defense/sex-crimes/statutory-rape-charges-punishment-defense
+]
+Gang Reps-IPC 376D defines gang rape as "where a group is formed by a woman or more than one person or acts forward to a common intention, each of those individuals is considered a crime of rape Will - Gang rape rape involving a group of men, the act is pre-meditated and pre-emptive. When sexual intercourse occurs in a group of men who are non-consensual (do not agree on consent), or they are another person Force them to have sex against their will.
+Marital Rape - Intimate Partner Rape. A rape that is non-consensual, (not agreed to), or if the husband or partner (being in a domestic relationship) forces the wife or other partner to have sex against her, is called marital rape goes. Rape involves sexual intercourse in the vagina, anus or mouth. It is unlawful sexual activity and is usually performed under the threat of coercion or injury against a person or with someone who is below a certain age due to mental illness, mental deficiency, intoxication, unconsciousness, or deception or Disabled for valid consent. . Marital rape is a non-criminal offense in India. India is one of the thirty-six countries that have not yet criminalized marital rape.
+Incest - Incest is sexual intercourse between closely related persons. The offense of intercourse, cohabitation or marriage between persons within the degree of intercourse or intimacy, wherein marriage is legally prohibited. The prevalence of incest cases varies between 5% and 62% according to culture, source of report and geographical location.
+Revenge rape - Payback rape, also known as "revenge rape", is rape of a certain culture. It involves the rape of a woman, usually by a group of several men, to avenge acts done to her members. Family, such as his father or brother. Rape is meant to humiliate and shame fathers or brothers as punishment for their former behavior towards criminals. Payback rape is sometimes associated with tribal fighting.
+Custodial Rape - Custodial rape is one of the most heinous and serious crimes against women and one of the categories of rape that involves the abuse of power and authority by those responsible for protecting and promoting the rights of women. Currently, the greatest danger to women is from those who protect them. Police and custodial rape are the most prevalent forms of rape in India. Rape rapes are heinous crimes because they reflect the betrayal of a custodial trust by a public servant against a helpless citizen.
+Rape under false pretenses of marriage- Hindu marriage connects two individuals for life, so that they can pursue dharma (duty), artha (property), and kama (material desires). It is a union of two individuals as husband and wife, and is recognized by law. In Hinduism, traditional customs are consumed after marriage.
+
+Consent of sexual intercourse obtained by a person by making a false promise of marriage will not absolve him of rape charges. Whenever the accused promises the victim to marry him, he never had any intention of marrying and the victim consented to intercourse on such assurance by the accused that he would marry her, such consent is said to be consensual. Could be obtained on misconception of fact as per Section 90 of the Indian Panel Code, and in this case, such consent will not forgive the offender and such offender may be committed for rape as defined under Section 375. Can. Can be convicted for an offense under Section 376 of the Indian Panel Code, and IPC.
+Section 375 and Section 90 of the Indian Penal Code, and it is necessary to re-impose consensual / consensual sex</string>
+
+    <string name="ans2Rape">Sexual Assault - Sexual Assault refers to sexual contact or a behavior that occurs without the consent of the victim. Some forms of sexual harassment include:\n
+ Late rape\n
+ Taunting or unwanted sexual touching\n
+ Coitus the victim to perform sexual activity, such as oral sex or penetrating into the body of criminals.
+
+sexual harrasment:
+
+Rape: Rape is a form of sexual assault, but not all sexual assaults are rape. The term rape is often used as a legal definition that specifically includes sexual penetration without consent.</string>
+
+
+    <string name="ans1Rape"> Typically, rape is an expression of aggression, anger or the need for power; Psychologically, it is more violent than sexual. Non-genital or genital injuries occur in about 50% of the rapes of women. </string>
+    <string name="historySafe"> History of safe sex practice </string>
+
+    <string name="ques1Mens">"What is menstruation?"</string>
+    <string name="ans1Mens">"menstruation, or period, is the normal vaginal bleeding that occurs as part of a woman's menstrual cycle. Every month, your body prepares for pregnancy. If If there is no pregnancy, the uterus, or womb, sheds its lining. Menstrual blood is partly blood and partly tissue from inside the uterus. It exits the body through the vagina. \n "
+                "Periods usually begin between 11 and 14 years of age and continue until menopause at age 51. They usually last three to five days. In addition to vaginal bleeding, you may have \n"
+                "\uF0B7 1) Stomach or pelvic pain \n"
+                "\uF0B7 2)  Lower Back Pain \n"
+                "\uF0B7 3) Swelling and sore throat \n"
+                "\uF0B7 4) food desire \n"
+                "\uF0B7 5) Mood and Irritability \n"
+                "\uF0B7 6)Consult your health care provider if you have big changes in your cycle. They may be signs of other problems that should be treated. \n"
+                "\uF0B7 7)A period is a release of blood from a girl'uterus out through her vagina. It is a sign that she is getting close to the end of puberty.\n"
+                "\uF0B7 8)There is a lot to learn about periods. Here are some common questions that teens have.\n"+
+                "Premenstrual syndrome, or PMS, is a group of symptoms that begin before the period. This may include emotional and physical symptoms"</string>
+
+    <string name="ques2Mens">"When do most girls get their period?"</string>
+
+    <string name="ans2Mens">"Most girls get their first period when they are around 12. But getting any time between the ages of 10 and 15) . Every girl's body has its own set of times. \n "
+                "A girl is not a perfect age to get her period. But there are some clues that it will begin soon: \n"
+                "\uF0B7 After time, a girl gets her period about 2 years after her breasts start developing. \n"
+                "\uF0B7 sign is vaginal discharge fluid (like mucus) that a girl can see or feel on her underwear. This discharge usually begins about 6 months before a girl is first found."</string>
+
+
+    <string name="ques3Mens">"What causes a period?"</string>
+    <string name="ans3Mens">"A period is caused by changes in hormones in the body. Hormones are chemical messengers. The ovaries release the female hormones estrogen and progesterone \n"
+                "These hormones form the lining of the uterus (or womb). The underlying lining is ready for a fertilized egg to attach and begin to develop. If there is no fertilized egg, the lining breaks down and then collapses. Goes. Then the same process happens again. Usually the lining construction takes about a month, then breaks. That's why most girls and women have periods once a month. "</string>
+    <string name="ques4Mens">How Does Ovulation Relate to Periods?</string>
+    <string name="ans4Mens">Ovulation- is the release of an egg from the ovaries. The same hormones that cause the uterus lining to build up also cause an egg to leave one of the ovaries. The egg travels through a thin tube called a fallopian tube to the uterus.
+If the egg is fertilized by a sperm cell, it attaches to the wall of the uterus, where over time it develops into a baby. If the egg is not fertilized, the uterus lining breaks down and bleeds, causing a period.</string>
+    <string name="ques5Mens">Do Periods Happen Regularly When Menstruation Starts?</string>
+    <string name="ans5Mens">For the first few years after a girl starts her period, it may not come regularly. This is normal at first. By about 2–3 years after her first period, a girls periods should be coming around once every 4–5 weeks.</string>
+    <string name="ques6Mens">Can  you get Pregnant as Soon as your Period Starts?</string>
+    <string name="ans6Mens">Yes, a girl can get pregnant as soon as her period starts. A girl can even get pregnant right before her very first period. This is because a girls hormones might already be active. The hormones may have led to ovulation and the building of the uterine wall. If a girl has sex, she can get pregnant, even though she has never had a period.</string>
+    <string name="ques7Mens">How Often Does a Period Happen?</string>
+    <string name="ans7Mens">Periods usually happen about once every 4–5 weeks. But some girls get their periods a little less or more often.</string>
+    <string name="ques8Mens">Should I Use a Pad, Tampon, or Menstrual Cup?</string>
+    <string name="ans8Mens" formatted="false">You have many choices about how to deal with period blood. You may need to experiment a bit to find which works best for you. Some girls use only one method and others switch between different methods.\n
+Most girls use pads when they first get their period. Pads are made of cotton and come in lots of different sizes and shapes. They have sticky strips that attach to the underwear.\n
+Many girls find tampons more convenient than pads, especially when playing sports or swimming. A tampon is a cotton plug that a girl puts into her vagina. Most tampons come with an applicator that guides the tampon into place. The tampon absorbs the blood.Donot leave a tampon in for more than 8 hours because this can increase your risk of a serious infection called Toxic shock syndrome.\n
+Some girls prefer a menstrual cup. Most menstrual cups are made of silicone. To use a menstrual cup, a girl inserts it into her vagina. It holds the blood until she empties it.</string>
+
+
+    <string name="ques9Mens">How Much Blood Comes Out?</string>
+    <string name="ans9Mens">It may look like a lot of blood, but a girl usually only loses a few tablespoons of blood during the whole period. Most girls need to change their pad, tampon, or menstrual cup about 3‒6 times a day.</string>
+    <string name="ques10Mens">Will I Have Periods for the Rest of My Life?</string>
+    <string name="ans10Mens">When women reach menopause (around age 45‒55), their periods will permanently stop. Women also wont have a period while they are Pregnant </string>
+    <string name="ques11Mens">What Is PMS?</string>
+    <string name="ans11Mens">PMS (premenstrual syndrome) is when a girl has emotional and physical symptoms that happen before or during her period. These symptoms can include moodiness, sadness, anxiety, bloating, and acne. The symptoms go away after the first few days of a period.</string>
+    <string name="pcnpdt_text" formatted="false">Sex ratio is defined as the ratio of the number of men to the number of women to population ratio. It is expressed internationally per 100 women, but in India it is expressed according to 1000 men. This means that there is an imbalance between the two sexes i.e. women are less per thousand men. According to the 2011 census, for every 1000 boys, there are only 918 girls. The child sex ratio in India has been declining since 1991 and is the worst since independence. According to the 1991 census, there were 945 girls for every 1000 boys and in 2001 the number of girls was for every 1000 boys. Keeping this in mind, the PCPNDT (Pre-Conception Pre-Natal Diagnostic Technique) Act was enacted to control or ban the use of technology i.e. ultra sound to determine the sex of the fetus before its birth. This Act of the Parliament of India was enacted to prevent female feticide and remove the declining sex ratio in India. For more information, please visit the following link: https://pndt.gov.in/WriteReadData/l892s/PC-PNDT%20ACT-1994.pdf Beti Bachao - Beti Padhao Prime Minister Recently, Beti Bachao - Beti Launched the Study (BBBP) campaign to reverse the dwindling numbers. Beti Bachao, Beti Padhao (Beti Bachao, Beti Padhao) is a Government of India scheme aimed at creating awareness and improving the efficiency of delivery of welfare services for girls and women. The scheme was launched with an initial corpus of Rs 100 crore. It is being implemented in 100 gender critical districts. For more information, please visit the link given below:<a href= "https://wcd.nic.in/sites/default/files/About_BBBP_Scheme.pdf">Our website</a> Sukanya Samriddhi Yojana Beti Bachao, part of Beti Padhao Abhiyan, is a Government of India savings scheme . Targeted the parents of the girl child. The program encourages them to create a fund for future education and marriage expenses for their female child. Parents can start saving early because the minimum amount of investment required is small, and the account is active for 14 years from the date of account opening. The salient features of the scheme are: ● It has tax benefits and an interest rate of 9.1%. ● It is for girls under 10 years of age. ● You can start an account with only Rs 1,000. ● Maximum deposit is Rs 1,50,000 per year. For more information, please visit the following link http://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89# Balika Samridhi Yojana This scheme was launched by the Government of India on 15th 1997 and has All girls were included. Those born on or after 15 August 1997 are below the poverty line. With the objective of providing financial assistance to girls born on or after 15 August 1997, the main objectives of the schemes include improving enrollment and retention of girls in schools and helping daughters up to the legal age of marriage. If successful, young girls will receive an education that will help them with jobs to generate a steady income. For more information, please visit the link given below https://pmmodiyojana.in/balika-samridhi-yojana/ CBSE Scholarship Scheme / Policy. The scheme envisages providing scholarships to meritorious single girl students, who are single children, parents and have passed the CBSE Class X examination with 60% or more and are continuing their further education of classes XI and XII. The objective of the scheme is to recognize the efforts of parents to promote education among girls and provide incentives to meritorious students. For more information, please visit the following link: https://transformingindia.mygov.in/scheme/cbse-single-girl-child-scholarship/#intro Delhi Ladli Scheme Delhi Ladli Scheme launched by NCT ​​of Delhi Government Went. On 01.01.2008 for the empowerment of Delhi-born girls. Its objectives are: • To empower girls socially and economically.\n • Promoting birth registration of girls.\n Control female feticide and improve sex ratio\n. • End discrimination against girls.\n • Promoting education among girls and reducing the school dropout rate.\n • To provide security to the girl students for their higher education.</string>
+    <string name="que1Faq"> "Is it true that men also undergo menopause? </string>
+    <string name="ans1Faq"> "Yes, menopause occurs in men as well. Some doctors refer to it as an androgen (testosterone) deficiency in an aging man (ADAM), which causes men to usually get older. Causes experience a decline in testosterone production. "</string>
+    <string name="que2Faq"> "Is vaginal discharge normal? \n</string>
+    <string name="ans2Faq"> "Yes, vaginal discharge is absolutely normal. Our vagina has a self-cleaning property. It cleans all the sugarcane through the vaginal fluid. We call it discharge. It is a normal functioning vagina. Indicates. \n "+
+                "If the discharge is more than normal, there is an unusual smell or color, you should talk to a doctor. \n </string>
+    <string name="que3Faq"> "Can a woman become pregnant while breastfeeding? \n </string>
+    <string name="ans3Faq"> "Although there is a common belief that a woman cannot get pregnant while she is breastfeeding, she can still become pregnant. Breastfeeding can suppress or delay menstruation. Before Ovulation will occur. Menstruation resumes, so follow your doctor's recommendation on the appropriate birth control method to use. \n"</string>
+    <string name="que4Faq"> "Is it ok to use Vaseline as a lubricant with latex condoms? \n </string>
+    <string name="ans4Faq"> "No. Only use water-based lubricants such as K-Y jelly with condoms. Oil-based lubricants, like Vaseline, can weaken the condom and cause it to break. \ n "</string>
+    <string name="que5Faq"> "Can a woman be pregnant using the birth control withdrawal method? \n" </string>
+    <string name="ans5Faq"> "The withdrawal method is not completely a complete method of birth control. You can get pregnant if the man actually ejaculates before the climax (fluid that contains sperm) to be released into the vagina. Could. \n "</string>
+    <string name="que6Faq"> "What is sexual health? \n" </string>
+
+    <string name="ans6Faq"> "Good health is considered to be a state of complete physical, mental, and social well-being, not simply the absence of illnesses or debility. The principles of sexual health are the same: \" Physical well-being \ "means Good health and hygiene for your genitals and related systems. \ "Mental well-being \" means feeling okay about your sexual desires and needs and not feeling guilty or depressed about them. \ "Social well-being" Is not to face social discrimination due to your sexual desires and needs, or because of a problem caused by unprotected sex. A combination of all these factors makes you (sexually) healthy! \n"</string>
+
+    <string name="que7Faq"> "What are HIV and AIDS? Are they the same? \n" </string>
+    <string name="ans7Faq"> "HIV stands for human immune virus and AIDS means immune deficiency syndrome. In simple words: HIV is a virus that weakens or weakens the human body's immune system, While AIDS is a result of HIV infection \n "</string>
+    <string name="que8Faq"> "What does the full form of AIDS mean: Acquired Immune Deficiency Syndrome? \n" </string>
+    <string name="ans8Faq"> "The word acquired means that AIDS is not hereditary by birth or present in your body. It comes from some external source through certain behaviors or conditions. Lack of immunity means AIDS. There is one thing that decreases your immunity. Syndrome means that AIDS is a collection of diseases that attack your body when its immunity becomes weak. \n"</string>
+
+
+    <string name="que9Faq"> "How can you get infected with HIV? \n </string>
+    <string name="ans9Faq"> "HIV is spread when an infected person's blood, semen, or anal or vaginal fluids are mixed into your bloodstream. The most common ways for this to happen are unprotected anal or vaginal sex or HIV positive. Sharing needles or syringes with the person. \n "+
+                "\" Pregnant women who are HIV positive can pass the virus to their baby before birth or during birth. HIV can also be passed on to the baby through breastfeeding. But the risk is very low for women taking HIV medicine. \n "</string>
+
+<!--    <string name="que10Faq"> "How can you get infected with HIV? \ n" </string>-->
+<!--    <string name="ans10Faq"> "HIV is spread when an infected person's blood, semen, or anal or vaginal fluids are mixed into your bloodstream. The most common ways for this to happen are unprotected anal or vaginal sex or HIV positive. Sharing needles or syringes with the person. \n "+-->
+<!--                "\" Pregnant women who are HIV positive can pass the virus to their baby before birth or during birth. HIV can also be passed on to the baby through breastfeeding. But the risk is very low for women taking HIV medicine. \n"</string>-->
+
+
+    <string name="que10Faq"> "How can you avoid getting infected with HIV through sex? \n </string>
+    <string name="ans10Faq"> "Having mutually loyal and monogamous sex with an unmarried partner. \n
+                "\" Or practicing safe sex with every sexual partner, including using condoms or other latex barriers (such as dental dams and females) properly and each time you practice certain penetrating sexual acts. \n "
+                </string>
+
+    <string name="que12Faq"> "Is abortion legal in India? \n </string>
+    <string name="ans12Faq"> "Yes, abortion is legal in India. Anyone who is 18 or older with a pregnancy of less than 20 weeks can go to the nearest licensed clinic for an abortion. \n "</string>
+
+    <string name="que13Faq"> "Do I need anyone's permission to get an abortion? \n </string>
+    <string name="ans13Faq"> "If you are an adult, you don't need anyone's permission to get an abortion. It's your body, so it's your choice \" "</string>
+</resources>

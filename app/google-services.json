@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564636223566",
+    "project_id": "srhr-android",
+    "storage_bucket": "srhr-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564636223566:android:2a3a641735843a55021b1f",
+        "android_client_info": {
+          "package_name": "com.naya.mainapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564636223566-42kk09ld7894gb4950ihbg1m4btfulo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naya.mainapk",
+            "certificate_hash": "c5a8763f3c563590752bced543b8b55de3f49ff6"
+          }
+        },
+        {
+          "client_id": "564636223566-4anfjhcjtbe2j67c5hjog1vslvf014bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBio1-8H5KwIrhaWjkmztVkxt9SDUYv-a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564636223566-4anfjhcjtbe2j67c5hjog1vslvf014bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

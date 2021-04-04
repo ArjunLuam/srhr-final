@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/aboutUs"
+        android:title="@string/aboutUs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="@string/contactUs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/inviteFriend"
+        android:title="@string/inviteFriends"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/query"
+        android:title="@string/writeToUs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/clinics"
+        android:title="@string/disha"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/videos"
+        android:title="@string/video"
+        app:showAsAction="never"/>
+</menu>

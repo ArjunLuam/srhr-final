@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".model.LanguageActivity">
+
+    <TextView
+        android:id="@+id/langTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Language"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/hindiButon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/hindiButon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hindi"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/englishButton"
+        app:layout_constraintEnd_toEndOf="@+id/langTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="24dp"
+        android:translationZ="4dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintStart_toStartOf="@+id/langTextView"
+        app:layout_constraintTop_toBottomOf="@+id/langTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/englishButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:translationZ="4dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hindiButon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/hindiButon"
+        app:layout_constraintTop_toBottomOf="@+id/hindiButon" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
